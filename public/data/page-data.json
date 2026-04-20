@@ -15,9 +15,9 @@
       },
       {
         "type": "website",
-        "label": "www.mywebsite.com",
+        "label": "danieltan8.github.io",
         "icon": "/images/icon/web-icon.svg",
-        "link": "https://www.mywebsite.com"
+        "link": "https://danieltan8.github.io/"
       }
     ],
     "socialItems": [
@@ -109,6 +109,11 @@
         "type": "phone",
         "label": "+1 (857) 857-8734",
         "link": "tel:+18578578734"
+      },
+      {
+        "type": "telegram",
+        "label": "https://t.me/danieltan8",
+        "link": "https://t.me/danieltan8"
       }
     ]
   }

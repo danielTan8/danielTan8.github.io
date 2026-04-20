@@ -10,6 +10,7 @@ interface SocialLink {
 }
 
 interface ContactInfo {
+  type: string;
   label: string;
   link: string;
 }
@@ -90,20 +91,20 @@ const Contact = () => {
       <div className="container">
         <div className="pt-16 md:pt-32 pb-20">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-            <h2>Contact Me</h2>
+            <h2 className="text-4xl md:text-6xl font-semibold">Contact Me</h2>
             <p className="text-xl text-orange-500">( 05 )</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24">
             <form onSubmit={handleSubmit}>
-              <div className="flex flex-col gap-7 sm:gap-12">
-                <div className="grid grid-cols-2 gap-8">
+              <div className="flex flex-col gap-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
                   <div>
-                    <label htmlFor="name" className="label">
+                    <label htmlFor="name" className="text-sm text-gray-400 block mb-2">
                       Name *
                     </label>
                     <input
                       required
-                      className="input"
+                      className="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-orange-500 transition-colors"
                       id="name"
                       name="name"
                       value={formData.name}
@@ -111,12 +112,12 @@ const Contact = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="number" className="label">
+                    <label htmlFor="number" className="text-sm text-gray-400 block mb-2">
                       Phone *
                     </label>
                     <input
                       required
-                      className="input"
+                      className="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-orange-500 transition-colors"
                       id="number"
                       type="number"
                       name="number"
@@ -126,12 +127,12 @@ const Contact = () => {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="label">
+                  <label htmlFor="email" className="text-sm text-gray-400 block mb-2">
                     Email *
                   </label>
                   <input
                     required
-                    className="input"
+                    className="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-orange-500 transition-colors"
                     id="email"
                     type="email"
                     name="email"
@@ -140,17 +141,17 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="label">
+                  <label htmlFor="message" className="text-sm text-gray-400 block mb-2">
                     Message *
                   </label>
                   <textarea
                     required
-                    className="input"
+                    className="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-orange-500 transition-colors resize-none"
                     name="message"
                     id="message"
                     value={formData.message}
                     onChange={handleChange}
-                    rows={2}
+                    rows={1}
                   />
                 </div>
                 {submitted && (
@@ -161,7 +162,7 @@ const Contact = () => {
                       width={30}
                       height={30}
                     />
-                    <p className="text-secondary">
+                    <p className="text-green-600">
                       Great!!! Email has been Successfully Sent. We will get in
                       touch asap.
                     </p>
@@ -169,40 +170,40 @@ const Contact = () => {
                 )}
                 <button
                   type="submit"
-                  className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+                  className="w-fit py-4 px-10 border border-orange-500 rounded-full text-xl font-medium text-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-300"
                 >
-                  <span className="relative z-10 text-xl font-medium text-primary group-hover:text-white transition-colors duration-300">
-                    Send Now
-                  </span>
+                  Send Now
                 </button>
               </div>
             </form>
-            <div className="flex flex-col sm:flex-row md:flex-col justify-between gap-5 md:gap-20 items-center md:items-end">
-              <div className="flex flex-wrap flex-row md:flex-col items-start md:items-end gap-4 md:gap-6">
+            <div className="flex flex-col items-start md:items-end gap-12">
+              <div className="flex flex-col items-start md:items-end gap-4">
                 {contactData?.socialLinks?.map(
                   (value: SocialLink, index: number) => {
                     return (
-                      <div key={index}>
-                        <Link
-                          className="text-base sm:text-lg font-normal text-secondary hover:text-primary"
-                          href={value?.href || "#"}
-                          target="_blank"
-                        >
-                          {value?.title}
-                        </Link>
-                      </div>
+                      <Link
+                        key={index}
+                        className="text-lg text-gray-400 hover:text-orange-500 transition-colors"
+                        href={value?.href || "#"}
+                        target="_blank"
+                      >
+                        {value?.title}
+                      </Link>
                     );
                   }
                 )}
               </div>
-              <div className="flex flex-wrap justify-center gap-5 lg:gap-11 items-end">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-12 w-full md:w-auto">
                 {contactData?.contactInfo?.map(
                   (value: ContactInfo, index: number) => {
                     return (
-                      <div key={index}>
+                      <div key={index} className="flex flex-col gap-2">
+                        <span className="text-sm text-orange-500 font-medium capitalize">
+                          {value?.type}:
+                        </span>
                         <Link
                           href={value?.link || "#"}
-                          className="text-base lg:text-lg text-black font-normal border-b border-black pb-3 hover:text-primary hover:border-primary"
+                          className="text-xl text-black font-normal border-b border-black pb-1 hover:text-orange-500 hover:border-orange-500 transition-all truncate"
                         >
                           {value?.label}
                         </Link>
