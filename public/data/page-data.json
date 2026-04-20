@@ -1,0 +1,115 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "danieltan8@outlook.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:danieltan8@outlook.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1 (857) 857-8734",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+18578578734"
+      },
+      {
+        "type": "website",
+        "label": "www.mywebsite.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.mywebsite.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/daniel-tan-b97058403"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "degree": "Bachelor of Science in Information Technology",
+        "institution": "Faculty of Information Technology, Czech Technical University (CTU)",
+        "location": "Prague, Czech Republic",
+        "period": "09/2008 – 05/2012",
+        "subjects": [
+          "Software Engineering",
+          "Conceptual Modeling",
+          "Programming Paradigms",
+          "Object-Oriented Programming",
+          "Introduction to DevOps",
+          "Team Software Project"
+        ]
+      },
+      {
+        "degree": "Master of Science in Information Systems Technology and Design",
+        "institution": "Singapore University of Technology and Design (SUTD)",
+        "location": "Singapore",
+        "period": "09/2016 – 06/2018",
+        "subjects": [
+          "Distributed Systems",
+          "Advanced Database Systems",
+          "Human-Computer Interaction",
+          "Machine Learning Fundamentals",
+          "Software Systems Engineering",
+          "Cloud Computing & Scalable Systems"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "icon": "/images/home/education-skill/react-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Next.js",
+        "icon": "/images/home/education-skill/nextjs-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/images/home/education-skill/typescript-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/home/education-skill/nodejs-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/images/home/education-skill/tailwind-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Docker / DevOps",
+        "icon": "/images/home/education-skill/docker-icon.svg",
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/daniel-tan-b97058403"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "danieltan8@outlook.com",
+        "link": "mailto:danieltan8@outlook.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1 (857) 857-8734",
+        "link": "tel:+18578578734"
+      }
+    ]
+  }
+}
