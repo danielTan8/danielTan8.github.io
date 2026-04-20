@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Daniel-Portfolio" : "";
+// const basePath = process.env.NODE_ENV === "production" ? "/Daniel-Portfolio" : "";
+const basePath = "";
 
 const nextConfig: NextConfig = {
   output: "export",
