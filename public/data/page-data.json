@@ -18,6 +18,12 @@
         "label": "danieltan8.github.io",
         "icon": "/images/icon/web-icon.svg",
         "link": "https://danieltan8.github.io/"
+      },
+      {
+        "type": "telegram",
+        "label": "@danieltan1129",
+        "icon": "/images/icon/telegram-icon.svg",
+        "link": "https://t.me/danieltan1129"
       }
     ],
     "socialItems": [
