@@ -177,7 +177,7 @@ const Contact = () => {
               </div>
             </form>
             <div className="flex flex-col items-start md:items-end gap-12">
-              <div className="flex flex-col items-start md:items-end gap-4">
+              {/* <div className="flex flex-col items-start md:items-end gap-4">
                 {contactData?.socialLinks?.map(
                   (value: SocialLink, index: number) => {
                     return (
@@ -192,7 +192,7 @@ const Contact = () => {
                     );
                   }
                 )}
-              </div>
+              </div> */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-12 w-full md:w-auto">
                 {contactData?.contactInfo?.map(
                   (value: ContactInfo, index: number) => {
