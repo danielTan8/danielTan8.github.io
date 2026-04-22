@@ -1,10 +1,16 @@
 "use client";
 
 import Logo from "../logo";
+import { getImgPath } from "@/utils/image";
 
 const Header = () => {
   const handleDownloadPDF = () => {
-    window.open("https://docs.google.com/document/d/1GPb5Rmnml6HNDef1_dN0f-PBKPguLhrs3GuQ1PtUsnQ/export?format=pdf", "_blank");
+    const link = document.createElement("a");
+    link.href = getImgPath("/CV.pdf");
+    link.download = "Daniel_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
   return (
     <header className="navbar top-0 left-0 z-999 w-full absolute">
