@@ -2,26 +2,6 @@
   "workData": [
     {
       "images": [
-        "/images/work/davidson-homes/desktop.jpg",
-        "/images/work/davidson-homes/desktop1.jpg",
-        "/images/work/davidson-homes/desktop2.jpg",
-        "/images/work/davidson-homes/mobile.jpg"
-      ],
-      "title": "Davidson Homes",
-      "client": "Davidson Homes",
-      "slug": "https://www.davidsonhomes.com/"
-    },
-    {
-      "images": [
-        "/images/work/decor-systems/desktop.jpg",
-        "/images/work/decor-systems/mobile.jpg"
-      ],
-      "title": "Decor Systems",
-      "client": "Decor Systems",
-      "slug": "https://decorsystems.com.au/"
-    },
-    {
-      "images": [
         "/images/work/karl-tatler/desktop.jpg",
         "/images/work/karl-tatler/listing-view.jpg",
         "/images/work/karl-tatler/map-view.jpg",
@@ -33,6 +13,36 @@
     },
     {
       "images": [
+        "/images/work/vitra-gift-finder/desktop.jpg",
+        "/images/work/vitra-gift-finder/mobile.jpg"
+      ],
+      "title": "Vitra Gift Finder",
+      "client": "Vitra",
+      "slug": "https://www.vitra.com/en-as/gift-finder"
+    },
+    {
+      "images": [
+        "/images/work/tummim/desktop.jpg",
+        "/images/work/tummim/main.jpg",
+        "/images/work/tummim/mobile.jpg"
+      ],
+      "title": "Tummim",
+      "client": "Tummim",
+      "slug": "https://tummim.io/"
+    },
+    {
+      "images": [
+        "/images/work/davidson-homes/desktop.jpg",
+        "/images/work/davidson-homes/desktop1.jpg",
+        "/images/work/davidson-homes/desktop2.jpg",
+        "/images/work/davidson-homes/mobile.jpg"
+      ],
+      "title": "Davidson Homes",
+      "client": "Davidson Homes",
+      "slug": "https://www.davidsonhomes.com/"
+    },
+    {
+      "images": [
         "/images/work/liftiq/desktop.webp"
       ],
       "title": "LiftIQ",
@@ -41,21 +51,12 @@
     },
     {
       "images": [
-        "/images/work/nebessa/desktop.jpg"
+        "/images/work/nebessa/desktop.jpg",
+        "/images/work/nebessa/desktop2.png"
       ],
       "title": "Nebessa",
       "client": "Nebessa",
       "slug": "https://nebessa.rs/"
-    },
-    {
-      "images": [
-        "/images/work/photoscoper/desktop.png",
-        "/images/work/photoscoper/mobile.png",
-        "/images/work/photoscoper/ui-design.png"
-      ],
-      "title": "Photoscoper",
-      "client": "Photoscoper",
-      "slug": "https://www.photoscoper.co.uk/"
     }
   ]
 }
