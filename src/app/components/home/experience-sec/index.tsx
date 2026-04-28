@@ -5,7 +5,7 @@ const ExperienceSec = () => {
         {
             year: "08/2023 – Present",
             title: "Senior Software Engineer",
-            company: "Hipster Pte. Ltd.",
+            company: "Hipster",
             type: "Singapore",
             description: [
                 "Leading the development of web apps using React, TypeScript, and Node.js.",
@@ -16,7 +16,7 @@ const ExperienceSec = () => {
         {
             year: "07/2020 – 06/2023",
             title: "Senior Software Engineer",
-            company: "Webpuppies Digital Pte. Ltd.",
+            company: "Webpuppies Digital",
             type: "Singapore",
             description: [
                 "Built high-traffic web platforms using React and Node.js.",
@@ -27,7 +27,7 @@ const ExperienceSec = () => {
         {
             year: "07/2018 – 06/2020",
             title: "Software Engineer",
-            company: "Originally US Pte. Ltd.",
+            company: "Originally US",
             type: "Singapore",
             description: [
                 "Built full-stack features and connected third-party APIs.",
@@ -38,8 +38,8 @@ const ExperienceSec = () => {
         {
             year: "06/2012 - 05/2016",
             title: "Web front-end Developer",
-            company: "Genius Web s.r.o.",
-            type: "Děčín CZ",
+            company: "BlueGhost",
+            type: "Czech",
             description: [
                 "Developed responsive, pixel-perfect websites for local businesses using HTML, CSS, and JavaScript.",
                 "Collaborated with design teams to create intuitive user interfaces and functional components.",
