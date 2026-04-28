@@ -25,7 +25,7 @@ const index = () => {
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
               I am a results-oriented Senior Software Engineer with over 10 years of experience 
               in architecting and building high-performance, scalable web applications. 
-              Expert in modern frontend ecosystems, specialized in React, Next.js, and 
+              Expert in modern frontend ecosystems, specialized in React, Node.js, and 
               TypeScript to deliver robust, user-centric solutions.
             </p>
           </div>

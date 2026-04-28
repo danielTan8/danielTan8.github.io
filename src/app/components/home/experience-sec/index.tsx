@@ -36,25 +36,15 @@ const ExperienceSec = () => {
             ]
         },
         {
-            year: "06/2014 - 05/2016",
-            title: "Web front-end developer",
-            company: "BTG Solutions s.r.o.",
-            type: "Brno CZ",
-            description: [
-                "Built user interfaces using React and Vue.js.",
-                "Integrated payment gateways and backend services.",
-                "Worked with the design team to build pixel-perfect components."
-            ]
-        },
-        {
-            year: "06/2012 - 05/2014",
+            year: "06/2012 - 05/2016",
             title: "Web front-end Developer",
             company: "Genius Web s.r.o.",
             type: "Děčín CZ",
             description: [
-                "Built responsive websites for local businesses using HTML, CSS, and JS.",
-                "Customized e-commerce templates and managed website content.",
-                "Learned fundamental web development and SEO basics."
+                "Developed responsive, pixel-perfect websites for local businesses using HTML, CSS, and JavaScript.",
+                "Collaborated with design teams to create intuitive user interfaces and functional components.",
+                "Customized e-commerce templates and integrated third-party services and payment gateways.",
+                "Applied SEO best practices and ensured optimal performance and cross-browser compatibility."
             ]
         }
     ];

@@ -38,7 +38,7 @@ const AboutMe = () => {
                   I am a results-driven Senior Software Engineer with over 10 years of experience in 
                   leading the development of high-quality, maintainable, and efficient software 
                   solutions. My expertise lies in architecting complex, interactive web 
-                  applications using the React ecosystem, Next.js, and TypeScript. I am 
+                  applications using the React ecosystem, Node.js, and TypeScript. I am 
                   passionate about engineering excellence, mentoring teams, and leveraging 
                   modern web technologies to drive impactful business growth and deliver 
                   superior user experiences.
