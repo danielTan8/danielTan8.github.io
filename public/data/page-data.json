@@ -14,10 +14,10 @@
         "link": "tel:+18578578734"
       },
       {
-        "type": "website",
-        "label": "danieltan8.github.io",
-        "icon": "/images/icon/web-icon.svg",
-        "link": "https://danieltan8.github.io/"
+        "type": "github",
+        "label": "github.com/danielTan8",
+        "icon": "/images/icon/github-icon.svg",
+        "link": "https://github.com/danielTan8"
       },
       {
         "type": "telegram",
@@ -118,8 +118,13 @@
       },
       {
         "type": "telegram",
-        "label": "https://t.me/danieltan1129",
+        "label": "t.me/danieltan1129",
         "link": "https://t.me/danieltan1129"
+      },
+      {
+        "type": "github",
+        "label": "github.com/danielTan8",
+        "link": "https://github.com/danielTan8"
       }
     ]
   }

@@ -7,7 +7,7 @@ const Logo = () => {
     <>
       <Link href="/">
         <Image
-          src={getImgPath("/images/logo/logo.svg")}
+          src={getImgPath("/images/logo/logo-d.svg")}
           alt="logo"
           width={70}
           height={70}
