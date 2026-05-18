@@ -177,6 +177,19 @@ const Contact = () => {
               </div>
             </form>
             <div className="flex flex-col items-start md:items-end gap-12">
+              <div className="flex flex-col items-start md:items-end gap-3 w-full md:w-auto">
+                <span className="text-sm text-orange-500 font-medium capitalize">
+                  Prefer to talk?
+                </span>
+                <Link
+                  href="https://calendly.com/danieltan8/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 py-4 px-8 border border-orange-500 bg-orange-500 rounded-full text-xl font-medium text-white hover:bg-orange-600 hover:border-orange-600 transition-all duration-300"
+                >
+                  <span>Schedule a 30-min Call</span>
+                </Link>
+              </div>
               {/* <div className="flex flex-col items-start md:items-end gap-4">
                 {contactData?.socialLinks?.map(
                   (value: SocialLink, index: number) => {

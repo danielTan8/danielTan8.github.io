@@ -30,6 +30,17 @@ const Header = () => {
                 Download PDF Resume
               </span>
             </button>
+
+            <a
+              href="https://calendly.com/danieltan8/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-orange-500 bg-orange-500 rounded-full group hover:bg-orange-600 hover:border-orange-600 transition-colors duration-300"
+            >
+              <span className="relative z-10 text-xl font-medium text-white">
+                Schedule a Call
+              </span>
+            </a>
           </div>
         </nav>
       </div>
