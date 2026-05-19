@@ -170,7 +170,7 @@ const Contact = () => {
                 )}
                 <button
                   type="submit"
-                  className="w-fit py-4 px-10 border border-orange-500 rounded-full text-xl font-medium text-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-300"
+                  className="w-full sm:w-fit py-4 px-10 border border-orange-500 rounded-full text-xl font-medium text-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-300 text-center"
                 >
                   Send Now
                 </button>
@@ -185,7 +185,7 @@ const Contact = () => {
                   href="https://calendly.com/danieltan8/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 py-4 px-8 border border-orange-500 bg-orange-500 rounded-full text-xl font-medium text-white hover:bg-orange-600 hover:border-orange-600 transition-all duration-300"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 py-4 px-8 border border-orange-500 bg-orange-500 rounded-full text-xl font-medium text-white hover:bg-orange-600 hover:border-orange-600 transition-all duration-300 text-center"
                 >
                   <span>Schedule a 30-min Call</span>
                 </Link>
